@@ -11,6 +11,7 @@
 		2CF0DF842ACD4F2900A4BF62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF0DF832ACD4F2900A4BF62 /* ContentView.swift */; };
 		2CF0DF862ACD4F2A00A4BF62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CF0DF852ACD4F2A00A4BF62 /* Assets.xcassets */; };
 		2CF0DF892ACD4F2A00A4BF62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CF0DF882ACD4F2A00A4BF62 /* Preview Assets.xcassets */; };
+		2CF0DF902ACD512700A4BF62 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2CF0DF8F2ACD512700A4BF62 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		2CF0DF832ACD4F2900A4BF62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2CF0DF852ACD4F2A00A4BF62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CF0DF882ACD4F2A00A4BF62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2CF0DF8F2ACD512700A4BF62 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		2CF0DF912ACD514300A4BF62 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +38,8 @@
 		2CF0DF752ACD4F2900A4BF62 = {
 			isa = PBXGroup;
 			children = (
+				2CF0DF912ACD514300A4BF62 /* README.md */,
+				2CF0DF8F2ACD512700A4BF62 /* .gitignore */,
 				2CF0DF802ACD4F2900A4BF62 /* Memorize */,
 				2CF0DF7F2ACD4F2900A4BF62 /* Products */,
 			);
@@ -126,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CF0DF892ACD4F2A00A4BF62 /* Preview Assets.xcassets in Resources */,
+				2CF0DF902ACD512700A4BF62 /* .gitignore in Resources */,
 				2CF0DF862ACD4F2A00A4BF62 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
