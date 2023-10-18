@@ -8,7 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
-    let emojis: [String] = ["👻","🕷️", "🎃", "😈"]
+    var viewModel: EmojiMemoryGame
+    
+    //let emojis: [String] = ["👻","🕷️", "🎃", "😈"]
+    let emojis: [String] = ["🍏", "🍎", "🥝", "🍆", "🍕", "🍟", "🥦", "🍞" ]
     
     var body: some View {
         VStack{
@@ -20,11 +23,11 @@ struct ContentView: View {
     }
     
     var cards: some View {
-        LazyVGrid(columns: [GridItem(.adaptive(minimum: 120))]){
+        LazyVGrid(columns: [GridItem(.adaptive(minimum: 85))]){
             
             ForEach(emojis.indices, id: \.self){ index in
                 CardView(content: emojis[index])
-                    .aspectRatio(contentMode: .fit)
+                    .aspectRatio(2/3, contentMode: .fit)
             }
         }
         .foregroundColor(.orange)
