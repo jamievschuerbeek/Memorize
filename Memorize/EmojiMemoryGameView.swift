@@ -34,7 +34,6 @@ struct EmojiMemoryGameView: View {
                 .onTapGesture{
                     viewModel.choose(card)
                 }
-            
         }
     }
 }
