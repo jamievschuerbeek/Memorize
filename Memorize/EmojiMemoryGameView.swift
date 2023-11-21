@@ -34,7 +34,6 @@ struct EmojiMemoryGameView: View {
     
     private var cards: some View {
         AspectVGrid(viewModel.cards, aspectRatio: aspectRatio){ card in
-            
             CardView(card)
                 .aspectRatio(aspectRatio, contentMode: .fit)
                 .padding(spacing)
